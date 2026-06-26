@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>poject</title>
+    <style>
+        body{
+            background-color: rgba(128, 128, 128, 0.434);
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        img{
+            width: 400px;
+            border-radius: 100%;
+            margin-top: 50px;
+        }
+        .project{
+            display: grid;
+            grid-template-columns:1fr 4fr;
+            animation:slideup 1s ease;
+            
+        }
+        .points{
+            margin-top: 200px;
+            margin-left: 40px;
+           font-size: 30px;
+           
+        }
+        @keyframes slideup {
+            from{
+                transform: translateY(0);
+                opacity: 0;
+            }
+            to{
+                transform: translateY(50px);
+                opacity: 1;
+            }
+            
+        }
+        h3{
+            font-size: 50px;
+            animation: slideup 1s ease;
+            font-family:cursive;
+        }
+
+        p{
+            font-size:25px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            animation: slideup 1s ease;
+        }    
+        
+        .header{
+            background-color: rgba(128, 128, 128, 0.382);
+            padding: 10px;
+            font-size: medium;
+        }
+      .head{
+        margin-left: 70%;
+        cursor: pointer;
+        font-size:medium;
+      }  
+      
+         
+        
+        
+        
+        
+
+
+    </style>
+</head>
+<body>
+    <div class="header" >
+        
+           <ul class="head">
+
+         
+           <a href="index.html">index|</a>
+            <a href="about.html">about me|</a>
+            <a href="project.html"> project|</a>
+            <a href="contact.html">contact|</a>
+            
+            
+           </ul>
+            
+        
+    </div>
+       
+    <h3 style="text-align: center;" >project:</h3>
+    
+
+    <div class="project">
+        
+        <img src="project.jpg">
+        <ul class="points">
+            <li>basic CRUD operation-<strong>Node.js file system API,postman</strong></li>
+            
+            <br>
+            <li>Image Gallery-<strong>HTML,CSS3,Javascript</strong></li>
+            <a href="https://github.com/jayashree-archh-art/Image-gallery" >view source code</a><br><br>
+             <li>Calculator App-<strong>HTML,CSS3 ,Javascript</strong></li>
+             <a href="https://github.com/jayashree-archh-art/Calculator-app" >view source code</a><br><br>
+             <li>Personal Portfolio-<strong>HTML,CSS3</strong></li>
+             <a href="https://github.com/jayashree-archh-art/portfolio" >view source code</a><br>
+        </ul>
+    
+        
+    </div>
+
+    
+</body>
+</html>
